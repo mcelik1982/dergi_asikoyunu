@@ -26,7 +26,9 @@ self.C3_JsPropNameTable = [
 	{tebrik_ozan: 0},
 	{tebrik_destan: 0},
 	{berabere: 0},
-	{karaktersec: 0}
+	{karaktersec: 0},
+	{ark_basla: 0},
+	{basla: 0}
 ];
 
 self.InstanceType = {
@@ -50,5 +52,7 @@ self.InstanceType = {
 	tebrik_ozan: class extends self.ISpriteInstance {},
 	tebrik_destan: class extends self.ISpriteInstance {},
 	berabere: class extends self.ISpriteInstance {},
-	karaktersec: class extends self.ISpriteInstance {}
+	karaktersec: class extends self.ISpriteInstance {},
+	ark_basla: class extends self.ISpriteInstance {},
+	basla: class extends self.ISpriteInstance {}
 }
